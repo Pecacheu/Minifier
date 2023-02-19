@@ -1,7 +1,7 @@
 //ChuMinify, Ray 2023. GNU GPL v3
 import fs from 'fs/promises'; import html from 'html-minifier-terser';
 import * as js from 'terser'; import css from 'clean-css';
-import path from 'path'; import {C,msg,err} from './color.mjs';
+import path from 'path'; import {C,msg,err} from '../AutoLoader/color.mjs';
 
 //Minify Options
 const HtmlOpt={
